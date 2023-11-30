@@ -12,6 +12,7 @@ describe("Validation of Check boxes",function(){
         cy.get('#vfb-6-1').check()
         cy.get('#vfb-6-2').check()
         cy.get('#vfb-6-2').uncheck({force:true})
+        cy.get('#vfb-6-2').check()
 
     })
     
